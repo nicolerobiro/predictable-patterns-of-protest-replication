@@ -79,10 +79,3 @@ Python reference implementation preserved alongside:
 
 These blocks are intentionally not executed by default. Uncomment them (or run
 the included Python) if you wish to reproduce those columns.
-
-## Minor fix relative to the original source
-
-In `Table7.do` the `effects(4)` and `effects(5)` runs both exported to
-`timewindow5_5.png` in the original, so the first was overwritten. The
-`effects(4)` graph is now exported to `timewindow4_4.png`. The estimation
-commands themselves are unchanged.
