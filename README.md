@@ -1,1 +1,0 @@
-# predictable-patterns-of-protest-replication
