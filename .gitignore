@@ -1,0 +1,24 @@
+# --- Data (do not commit large/raw .dta to the repo) ------------------------
+data/*.dta
+data/_cache/
+
+# --- Generated results (uncomment if you do NOT want outputs in the repo) ----
+# Results/*.png
+# Results/*.tex
+
+# --- Stata cruft ---
+*.log
+*.smcl
+*.stsem
+*.gph
+*.stbackup
+
+# --- R cruft ---
+.Rhistory
+.RData
+.Rproj.user/
+
+# --- OS / editor ------------------------------------------------------------
+.DS_Store
+Thumbs.db
+*~

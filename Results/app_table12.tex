@@ -1,0 +1,19 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{4}{c}}
+\hline\hline
+                &Protests                                                                   \\
+                &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}\\
+                &\multicolumn{1}{c}{Nairobi}&\multicolumn{1}{c}{Election}&\multicolumn{1}{c}{Anomalies}&\multicolumn{1}{c}{Quality}\\
+\hline
+Start of Season &    0.006\sym{**} &   -0.000         &    0.005\sym{**} &    0.006\sym{**} \\
+                &  (0.002)         &  (0.002)         &  (0.002)         &  (0.002)         \\
+\hline
+Observations    &  407,520         &  473,055         &  483,120         &  483,096         \\
+Mean DV         &    0.053         &    0.053         &    0.061         &    0.061         \\
+Ward FE         &\checkmark         &\checkmark         &\checkmark         &\checkmark         \\
+Dekate $\times$ Year FE&\checkmark         &\checkmark         &\checkmark         &\checkmark         \\
+\hline\hline
+\multicolumn{5}{l}{\footnotesize \sym{*} \(p<0.1\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\
+\end{tabular}
+}
